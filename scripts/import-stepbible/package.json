@@ -1,0 +1,13 @@
+{
+  "name": "biblelex-import-stepbible",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "import-stepbible.js",
+  "scripts": {
+    "import": "node import-stepbible.js",
+    "download": "node download-stepbible.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2"
+  }
+}
